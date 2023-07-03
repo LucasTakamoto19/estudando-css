@@ -19,7 +19,7 @@ body{
     width: 400px;
     height: 400px;
     background-color: blue;
-    border-radius: 50px;
+    border-radius: 50%;
     background-image: url("https://i.pinimg.com/564x/1d/b7/6b/1db76b001f95a426da7a5a0e1e7b7ca8.jpg");
     background-repeat: no-repeat;
     background-position: bottom right;
