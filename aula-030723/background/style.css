@@ -7,4 +7,21 @@ body{
     background-image: url(https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/874.png);
     /*no-repeat repeat-x repeat-y*/
     background-repeat: no-repeat;
+    /*bottom right top left center*/
+    background-position: center;
+    /*Acompanha o Scroll*/
+    background-attachment: fixed;
+    /*Define a largura e altura será automatica*/
+    background-size: 400px; 
+}
+
+.card{
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+    border-radius: 50px;
+    background-image: url("https://i.pinimg.com/564x/1d/b7/6b/1db76b001f95a426da7a5a0e1e7b7ca8.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: cover;
 }
