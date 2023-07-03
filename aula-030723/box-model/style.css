@@ -1,0 +1,42 @@
+
+/*
+Box-Model = Pode configurar a aparencia da caixa do elemnto
+padding = preenchimento
+margin = espaçamento externo
+border = contorno
+*/
+
+.box1{
+    background-color: coral;
+    padding: 16px; /* preenchimento de todos os lados*/
+    text-align: justify;
+    margin: 20px; /* margem externa em todos os lados*/
+}
+
+.box2{
+    background-color: yellowgreen;
+    padding: 10px 15px 20px 10px;
+    /*VERTICAL HORIZONTAL*/
+    margin: 25px 30px;
+}
+
+.box3{
+    /*solid dashed dotted*/
+    background-color: brown;
+    border: 2px solid black;
+}
+
+.box4{
+    background-color: tomato;
+    margin: 10px;
+    padding: 30px;
+    border: 5px solid yellow;
+    width: 200spx;
+    /*Indica ao  css para levar em conta nos 200px a borda e o padding*/
+    box-sizing: border-box;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
