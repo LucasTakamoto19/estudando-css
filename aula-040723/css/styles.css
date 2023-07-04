@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
+* {
+    /*Todos elementos recebem estas propriedades*/
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-image: url(https://e0.pxfuel.com/wallpapers/340/685/desktop-wallpaper-turquoise-light-abstract-apple-galaxy-clean-beauty-colour-para-iphone-6-papel-de-parede-para-telefone-rosa-fundo-de-tela-feminino-thumbnail.jpg);
+}
+
+main {
+    padding: 16px 32px;
+}
+
+.blog-secao {
+    margin: 16px 0;
+}
+
+.blog-secao h2 {
+    text-align: center;
+}
+
+.blog-secao p {
+    text-align: justify;
+}
+
+.btn {
+    background-color: gray;
+    border: 0;
+    padding: 8px 12px;
+    margin: 4px 0;
+    border-radius: 8px; 
+    cursor: pointer; /* Botão vira clicavel */
+    display: block;
+}
+
+/* hover => Quando o mouse está sobre o elemento, o elemento muda a cor */
+
+.btn :hover {
+    background-color: #36213e;
+    color: white;
+}
+
+.material-symbols-outlined {
+    font-size: 14px;
+}
+
+.navegacao ul {
+    background-color:  #36213e;
+}
+
+.navegacao li {
+    display: inline-block;
+}
+
+.navegacao a {
+    color: white;
+    /* line-through (tachado), underline (sublinhado) */
+    text-decoration: none;
+    text-decoration: line-through;
+    padding: 20px 28px;
+}
+
+.navegacao a:hover {
+    color: #329f5b;
+}
