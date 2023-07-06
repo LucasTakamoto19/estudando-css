@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0
+}
+
+body {
+    background-color: teal;
+    font-family: monospace;
+}
+
+@media screen and (max-width: 599px) {
+    /* Se a largura é menor ou igual a 599px */
+    body{
+        background-color: red;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1000px) {
+    /* Se a largura é maior ou igual a 600px
+        E se a largura é menor ou igual a 1000px, OU SEJA,
+        
+     */
+    body{
+        background-color: olive;
+    }
+}
