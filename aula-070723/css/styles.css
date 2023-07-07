@@ -1,0 +1,8 @@
+.custom{
+    background-color: brown;
+    color: white;
+}
+
+#carouselExample .carousel-inner{
+    height: 500px;
+}
